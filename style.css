@@ -1,0 +1,68 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+h4 {
+  margin-left: 40px;
+}
+
+ul {
+  margin-left: 80px;
+}
+
+img {
+  border-radius: 50%;
+  height: 180px;
+  width: 160px;
+}
+
+#cv {
+  text-align: center;
+  padding-top: 50px;
+}
+
+#profile {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+  margin-right: 35%;
+}
+
+#name {
+  font-size: 40px;
+  margin-left: 40px;
+}
+
+#bio {
+  text-align: center;
+}
+
+#personal {
+  margin-top: 40px;
+  margin-left: 180px;
+}
+
+#personal p {
+  margin-left: 80px;
+}
+
+#education {
+  margin-top: 40px;
+  margin-left: 180px;
+}
+
+#skills {
+  margin-top: 40px;
+  margin-left: 180px;
+}
+
+#projects {
+  margin-top: 40px;
+  margin-left: 180px;
+}
+
+#activities {
+  margin-top: 40px;
+  margin-left: 180px;
+}
