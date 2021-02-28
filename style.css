@@ -1,68 +1,64 @@
 body {
+  background-color: #ededed;
   font-family: Arial, Helvetica, sans-serif;
+  max-width: 1024px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-h4 {
-  margin-left: 40px;
-}
-
-ul {
-  margin-left: 80px;
-}
-
-img {
-  border-radius: 50%;
-  height: 180px;
-  width: 160px;
-}
-
-#cv {
+.cv {
+  padding: 30px;
   text-align: center;
-  padding-top: 50px;
 }
 
-#profile {
+.profile {
   display: flex;
   align-items: center;
-  justify-content: center;
-  margin-top: 80px;
-  margin-right: 35%;
 }
 
-#name {
-  font-size: 40px;
-  margin-left: 40px;
+.profile img {
+  border-radius: 100%;
+  border: 3px solid black;
+  height: 170px;
+  width: 170px;
 }
 
-#bio {
+.bio {
+  margin-left: 30px;
+}
+
+.bio p {
+  margin-top: 50px;
+}
+
+hr {
+  margin-top: 30px;
+  margin-bottom: 50px;
+  width: 55%;
+  border: 1px solid black;
+}
+
+.flex-alignment {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.flex-alignment div {
+  background-color: whitesmoke;
+  width: 49%;
+  border-radius: 50px;
+}
+
+.flex-alignment h2 {
   text-align: center;
 }
 
-#personal {
-  margin-top: 40px;
-  margin-left: 180px;
+.flex-alignment h4 {
+  margin-left: 50px;
 }
-
-#personal p {
-  margin-left: 80px;
+.flex-alignment li {
+  margin-left: 60px;
 }
-
-#education {
-  margin-top: 40px;
-  margin-left: 180px;
-}
-
-#skills {
-  margin-top: 40px;
-  margin-left: 180px;
-}
-
-#projects {
-  margin-top: 40px;
-  margin-left: 180px;
-}
-
-#activities {
-  margin-top: 40px;
-  margin-left: 180px;
+.personal p {
+  margin-left: 100px;
 }
