@@ -1,5 +1,6 @@
 body {
-  background-color: #ededed;
+  color: white;
+  background-color: #0d1117;
   font-family: Arial, Helvetica, sans-serif;
   max-width: 1024px;
   margin-left: auto;
@@ -7,6 +8,7 @@ body {
 }
 
 .cv {
+  color: #58a6ff;
   padding: 30px;
   text-align: center;
 }
@@ -18,7 +20,7 @@ body {
 
 .profile img {
   border-radius: 100%;
-  border: 3px solid black;
+  border: 3px solid #58a6ff;
   height: 170px;
   width: 170px;
 }
@@ -29,6 +31,10 @@ body {
 
 .bio p {
   margin-top: 50px;
+}
+
+.bio h2 {
+  color: #58a6ff;
 }
 
 hr {
@@ -44,12 +50,13 @@ hr {
 }
 
 .flex-alignment div {
-  background-color: whitesmoke;
+  background-color: #161b22;
   width: 49%;
-  border-radius: 50px;
+  border-radius: 30px;
 }
 
 .flex-alignment h2 {
+  color: #58a6ff;
   text-align: center;
 }
 
